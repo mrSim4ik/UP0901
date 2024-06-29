@@ -1,0 +1,36 @@
+$brownback : #d29c6d;
+$brownlight : #ba8f6a;
+$brownbacklight : #cc9e76;;
+$brownlighter : #d4b091;
+$browndark :#c59070;;
+$brownmiddle : #9a7352;
+$brownmiddlelight : #dba87c;;
+$red : #FA0000;
+$redbright: #FF0000;
+$purpledark : #640CAB;
+$forestgreen : #1F9615;
+$brownverydark : #9D6645;
+$orange : #FFA700;
+$purpleblue : #323171;
+$gray : #393737;
+$brownblack: #3f302f;
+
+@mixin container{
+    .container{
+        box-sizing: border-box;
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 0 120px;
+    }
+}
+
+@mixin fonts{
+    @font-face {
+        font-family: "Circe Bold";
+        src: url(../fonts/Circe.ttf);
+    }
+    @font-face {
+        font-family: "Bitter Pro";
+        src: url(../fonts/Bitter.ttf);
+    }
+}
